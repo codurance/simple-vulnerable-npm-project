@@ -1,0 +1,62 @@
+# Node
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Environment variables (potentially sensitive)
+bash.env
+.env
+
+# Approval tests
+**/*.received.txt
+
+# Project output
+/data
+/report/public/data
+tmp_unit_test/
+
+## Tool-compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Dependency-check tool caching
+/bash/dependency-check/data/
+/bash/dependency-check-docker/data/oss_cache
+
+# IDE & Editor Config
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+## VSCode-specific
+/.vs
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# Miscellaneous
+*/.angular/cache/
+*/.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+/report/ng-serve.log
+/report/coverage
+/report/dist
