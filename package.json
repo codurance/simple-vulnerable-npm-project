@@ -1,12 +1,9 @@
 {
   "name": "sqa",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Simple NPM project with security issues for dependency check testing",
   "dependencies": {
     "@dotenvx/dotenvx": "^1.14.0",
     "@types/handlebars": "^4.1.0",
