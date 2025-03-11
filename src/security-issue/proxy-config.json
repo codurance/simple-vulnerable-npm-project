@@ -1,0 +1,22 @@
+{
+  "/api": {
+    "target": "http://localhost:9000",
+    "token": "squ_73f239d4ef6fc7b762e04d7765e2fcb49d7bf10e",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/git": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "changeOrigin": true
+  },
+  "/ai": {
+    "target": "",
+    "model": "",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/ai": ""
+    }
+  }
+}

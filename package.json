@@ -17,6 +17,8 @@
     "puppeteer": "^23.4.0",
     "ts-results": "^3.3.0",
     "tslib": "^2.7.0",
-    "express": "^4.21.2"
+    "@nestjs/platform-express": "^10.4.15",
+    "@nestjs/common": "^10.4.15",
+    "dompurify": "^2.5.4"
   }
 }
